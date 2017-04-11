@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="startPagePadding">16dp</dimen>
+    <dimen name="editTextPadding">8dp</dimen>
+    <dimen name="startPageElementsMargin">16dp</dimen>
+    <dimen name="questionTextSize">32sp</dimen>
+    <dimen name="checkboxTextSize">16sp</dimen>
+    <dimen name="checkboxMargin">8dp</dimen>
+    <dimen name="finalMessageMargin">64dp</dimen>
+    <dimen name="scoreMessageMargin">64dp</dimen>
+    <dimen name="scoreMargin">16dp</dimen>
+    <dimen name="replayButtonMargin">32dp</dimen>
+    <dimen name="playerNameMargin">16dp</dimen>
+    <dimen name="finalMessage">32sp</dimen>
+    <dimen name="scoreMessage">24sp</dimen>
+    <dimen name="score">32sp</dimen>
+    <dimen name="resultNo">16sp</dimen>
+    <dimen name="resultsAnswer">16sp</dimen>
+    <dimen name="resultHeader">16sp</dimen>
+    <dimen name="resultNoPadding">8dp</dimen>
+    <dimen name="questionMargin">32dp</dimen>
+</resources>

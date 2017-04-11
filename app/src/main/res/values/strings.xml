@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="nameHint">Name</string>
+    <string-array name="freeQuestionHint">
+        <item>No answer</item>
+        <item>No answer</item>
+        <item>No answer</item>
+        <item>No answer</item>
+        <item>E.g. Firstname Lastname</item>
+        <item>No answer</item>
+        <item>No answer</item>
+        <item>E.g. 2053</item>
+        <item>No answer</item>
+        <item>No answer</item>
+    </string-array>
+    <string name="question5Hint">E.g. Firstname Lastname</string>
+    <string name="question8Hint">E.g. 2053</string>
+    <string name="startButton">Start quiz</string>
+    <string name="nextButton">Next</string>
+    <string name="endButton">End quiz</string>
+    <string name="noNameToast">Enter your name</string>
+    <string name="noMultipleAnswersToast">Select at least one answer</string>
+    <string name="noSingleAnswersToast">Select one answer</string>
+    <string name="noFreeAnswersToast">Insert your answer as shown</string>
+
+    <string-array name="questions">
+        <item>What is the capital city of Romania?</item>
+        <item>Which of the following cities are in Romania?</item>
+        <item>What romanian road was visited by Top Gear?</item>
+        <item>Which of the following parks are in Bucharest?</item>
+        <item>Who wrote the poem "Luceafărul"?</item>
+        <item>Which of these are romanian brands?</item>
+        <item>Which of these can you visit in Romania?</item>
+        <item>In what year was Mihai Eminescu born?</item>
+        <item>Which is the biggest stadium in Romania in terms of capacity? (55.634)</item>
+        <item>In what sports did Gheorghe Hagi, Nadia Comăneci and Ilie Năstase excel?</item>
+    </string-array>
+
+    <string-array name="questionTypes">
+        <item>single</item>
+        <item>multiple</item>
+        <item>single</item>
+        <item>multiple</item>
+        <item>free</item>
+        <item>multiple</item>
+        <item>multiple</item>
+        <item>free</item>
+        <item>single</item>
+        <item>single</item>
+    </string-array>
+
+    <string-array name="answers">
+        <!-- Question 1 answers -->
+        <item>A. Cluj-Napoca</item>
+        <item>B. Timișoara</item>
+        <item>C. Bucharest</item>
+        <item>D. Iași</item>
+        <!-- Question 2 answers -->
+        <item>A. Sibiu</item>
+        <item>B. Iași</item>
+        <item>C. Chișinău</item>
+        <item>D. Cluj-Napoca</item>
+        <!-- Question 3 answers -->
+        <item>A. Transfăgărașan</item>
+        <item>B. Stelvio Pass</item>
+        <item>C. Military Road</item>
+        <item>D. San Bernardino</item>
+        <!-- Question 4 answers -->
+        <item>A. Herăstrău Park</item>
+        <item>B. Romanescu Park</item>
+        <item>C. Alexandru Ioan Cuza (IOR) Park</item>
+        <item>D. Babeș Park</item>
+        <!-- Question 5 answers -->
+        <item>Mihai Eminescu</item>
+        <item>Firstname Lastname</item>
+        <item>Firstname Lastname</item>
+        <item>Firstname Lastname</item>
+        <!-- Question 6 answers -->
+        <item>A. Orange</item>
+        <item>B. Gerovital</item>
+        <item>C. Dacia</item>
+        <item>D. Ford</item>
+        <!-- Question 7 answers -->
+        <item>A. Peleș Castle</item>
+        <item>B. Danube Delta</item>
+        <item>C. Voroneț Monastery</item>
+        <item>D. Palace of Parliament</item>
+        <!-- Question 8 answers -->
+        <item>1850</item>
+        <item>YYYY</item>
+        <item>YYYY</item>
+        <item>YYYY</item>
+        <!-- Question 9 answers -->
+        <item>A. Cluj Arena</item>
+        <item>B. Steaua Stadium</item>
+        <item>C. Ion Oblemenco</item>
+        <item>D. National Arena</item>
+        <!-- Question 10 answers -->
+        <item>A. Tennis, Volleyball, Handball</item>
+        <item>B. Football, Gymnastics, Handball</item>
+        <item>C. Football, Gymnastics, Tennis</item>
+        <item>D. Handball, Volleyball, Football</item>
+    </string-array>
+
+    <!--<string name="q1answer1">No bla</string>
+    <string name="q1answer2">More bla</string>
+    <string name="q1answer3">Bla bla</string>
+    <string name="q1answer4">Blaaa blaaaaa</string>-->
+
+
+
+    <string name="finalMessage">End of quiz</string>
+    <string name="scoreMessage">You scored:</string>
+    <string name="score">0</string>
+    <string name="outOf">" out of "</string>
+    <string name="total">10</string>
+    <string name="replayButton">Play again</string>
+    <string name="resultsButton">Details</string>
+    <string name="backButton">Back</string>
+    <string name="resultNo1">1</string>
+    <string name="resultNo2">2</string>
+    <string name="resultNo3">3</string>
+    <string name="resultNo4">4</string>
+    <string name="resultNo5">5</string>
+    <string name="resultNo6">6</string>
+    <string name="resultNo7">7</string>
+    <string name="resultNo8">8</string>
+    <string name="resultNo9">9</string>
+    <string name="resultNo10">10</string>
+    <string name="resultNoHeader">No.</string>
+    <string name="resultMyAnsHeader">Your Answer</string>
+    <string name="resultCorrectHeader">Correct Answer</string>
+    <string name="resultImageHeader">Good?</string>
+</resources>

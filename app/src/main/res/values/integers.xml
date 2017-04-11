@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="correctAnswers">
+        <!-- Question 1 correct answers -->
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+
+        <!-- Question 2 correct answers -->
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+
+        <!-- Question 3 correct answers -->
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+        <!-- Question 4 correct answers -->
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+
+        <!-- Question 5 correct answers -->
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+        <!-- Question 6 correct answers -->
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+
+        <!-- Question 7 correct answers -->
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+
+        <!-- Question 8 correct answers -->
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+        <!-- Question 9 correct answers -->
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+
+        <!-- Question 10 correct answers -->
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+</resources>

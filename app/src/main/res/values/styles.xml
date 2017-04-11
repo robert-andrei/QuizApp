@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="editTextBackground">@color/editTextColor</item>
+        <item name="android:colorBackground">@color/colorStartBackground</item>
+    </style>
+
+    <style name="editTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:textColorHint">@color/editTextColorHint</item>
+        <item name="android:textColor">@color/editTextColorText</item>
+    </style>
+
+    <style name="checkboxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/checkboxTextSize</item>
+        <item name="android:layout_marginTop">@dimen/checkboxMargin</item>
+        <item name="android:layout_marginBottom">@dimen/checkboxMargin</item>
+    </style>
+
+    <style name="question">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/scoreMargin</item>
+        <item name="android:lines">5</item>
+        <item name="android:textSize">@dimen/questionTextSize</item>
+    </style>
+
+    <style name="finalPageTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="resultHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/resultHeader</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="resultNo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingStart">@dimen/resultNoPadding</item>
+        <item name="android:paddingEnd">@dimen/resultNoPadding</item>
+        <item name="android:textSize">@dimen/resultNo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/result_border</item>
+    </style>
+
+    <style name="answer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/resultsAnswer</item>
+        <item name="android:text">"answer"</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/result_border</item>
+    </style>
+
+    <style name="resultCorrectImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:background">@drawable/result_border</item>
+    </style>
+
+</resources>

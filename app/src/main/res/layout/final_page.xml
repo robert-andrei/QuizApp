@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.quizapp.FinalActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/startPagePadding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal">
+
+            <TextView
+                style="@style/finalPageTextView"
+                android:text="@string/finalMessage"
+                android:textSize="@dimen/finalMessage"/>
+
+            <TextView
+                android:id="@+id/playerName"
+                style="@style/finalPageTextView"
+                android:layout_margin="@dimen/playerNameMargin"
+                android:textSize="@dimen/finalMessage"/>
+
+            <TextView
+                style="@style/finalPageTextView"
+                android:layout_marginTop="@dimen/scoreMessageMargin"
+                android:text="@string/scoreMessage"
+                android:textSize="@dimen/scoreMessage"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/score"
+                    style="@style/finalPageTextView"
+                    android:layout_marginTop="@dimen/scoreMargin"
+                    android:text="@string/score"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/score"/>
+
+                <TextView
+                    style="@style/finalPageTextView"
+                    android:layout_marginTop="@dimen/scoreMargin"
+                    android:text="@string/outOf"
+                    android:textSize="@dimen/scoreMessage"/>
+
+                <TextView
+                    style="@style/finalPageTextView"
+                    android:layout_marginTop="@dimen/scoreMargin"
+                    android:text="@string/total"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/score"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/replayButtonMargin"
+                android:text="@string/replayButton"
+                android:onClick="restart"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultsButton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="showDetails"/>
+
+    </RelativeLayout>
+
+</ScrollView>

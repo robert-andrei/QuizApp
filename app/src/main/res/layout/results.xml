@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/startPagePadding"
+    tools:ignore="ContentDescription"
+    tools:context="com.example.android.quizapp.ResultsActivity">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/backButton"
+        android:onClick="goBack"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/backButton"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/resultHeader"
+                android:text="@string/resultNoHeader"/>
+
+            <TextView
+                style="@style/resultNo"
+                android:text="@string/resultNo1"/>
+
+            <TextView
+                style="@style/resultNo"
+                android:text="@string/resultNo2"/>
+
+            <TextView
+                style="@style/resultNo"
+                android:text="@string/resultNo3"/>
+
+            <TextView
+                style="@style/resultNo"
+                android:text="@string/resultNo4"/>
+
+            <TextView
+                style="@style/resultNo"
+                android:text="@string/resultNo5"/>
+
+            <TextView
+                style="@style/resultNo"
+                android:text="@string/resultNo6"/>
+
+            <TextView
+                style="@style/resultNo"
+                android:text="@string/resultNo7"/>
+
+            <TextView
+                style="@style/resultNo"
+                android:text="@string/resultNo8"/>
+
+            <TextView
+                style="@style/resultNo"
+                android:text="@string/resultNo9"/>
+
+            <TextView
+                style="@style/resultNo"
+                android:text="@string/resultNo10"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/resultHeader"
+                android:text="@string/resultMyAnsHeader"/>
+
+            <TextView
+                android:id="@+id/myAnswer1"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/myAnswer2"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/myAnswer3"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/myAnswer4"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/myAnswer5"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/myAnswer6"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/myAnswer7"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/myAnswer8"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/myAnswer9"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/myAnswer10"
+                style="@style/answer"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/resultHeader"
+                android:text="@string/resultCorrectHeader"/>
+
+            <TextView
+                android:id="@+id/correctAnswer1"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/correctAnswer2"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/correctAnswer3"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/correctAnswer4"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/correctAnswer5"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/correctAnswer6"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/correctAnswer7"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/correctAnswer8"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/correctAnswer9"
+                style="@style/answer"/>
+
+            <TextView
+                android:id="@+id/correctAnswer10"
+                style="@style/answer"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/resultHeader"
+                android:text="@string/resultImageHeader"/>
+
+            <ImageView
+                android:id="@+id/result1"
+                style="@style/resultCorrectImage"
+                android:src="@drawable/right_answer"/>
+
+            <ImageView
+                android:id="@+id/result2"
+                style="@style/resultCorrectImage"
+                android:src="@drawable/right_answer"/>
+
+            <ImageView
+                android:id="@+id/result3"
+                style="@style/resultCorrectImage"
+                android:src="@drawable/right_answer"/>
+
+            <ImageView
+                android:id="@+id/result4"
+                style="@style/resultCorrectImage"
+                android:src="@drawable/right_answer"/>
+
+            <ImageView
+                android:id="@+id/result5"
+                style="@style/resultCorrectImage"
+                android:src="@drawable/right_answer"/>
+
+            <ImageView
+                android:id="@+id/result6"
+                style="@style/resultCorrectImage"
+                android:src="@drawable/wrong_answer"/>
+
+            <ImageView
+                android:id="@+id/result7"
+                style="@style/resultCorrectImage"
+                android:src="@drawable/right_answer"/>
+
+            <ImageView
+                android:id="@+id/result8"
+                style="@style/resultCorrectImage"
+                android:src="@drawable/right_answer"/>
+
+            <ImageView
+                android:id="@+id/result9"
+                style="@style/resultCorrectImage"
+                android:src="@drawable/wrong_answer"/>
+
+            <ImageView
+                android:id="@+id/result10"
+                style="@style/resultCorrectImage"
+                android:src="@drawable/right_answer"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

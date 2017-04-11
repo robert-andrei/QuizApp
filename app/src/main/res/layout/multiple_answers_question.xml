@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.quizapp.MultipleAnswerQuestionActivity">
+
+    <RelativeLayout
+        android:id="@+id/questionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/startPagePadding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/questionTextView"
+                style="@style/question"/>
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                style="@style/checkboxStyle"/>
+
+            <CheckBox
+                android:id="@+id/checkbox2"
+                style="@style/checkboxStyle"/>
+
+            <CheckBox
+                android:id="@+id/checkbox3"
+                style="@style/checkboxStyle"/>
+
+            <CheckBox
+                android:id="@+id/checkbox4"
+                style="@style/checkboxStyle"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/nextButton"
+            android:onClick="nextQuestion"/>
+
+    </RelativeLayout>
+
+</ScrollView>
